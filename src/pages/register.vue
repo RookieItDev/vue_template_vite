@@ -143,32 +143,12 @@ export default {
                 Sign in instead
               </RouterLink>
             </VCol>
-
-            <VCol
-              cols="12"
-              class="d-flex align-center"
-            >
-              <VDivider />
-              <span class="mx-4">or</span>
-              <VDivider />
-            </VCol>
-
-            <!-- auth providers -->
-            <VCol
-              cols="12"
-              class="text-center"
-            >
-              <AuthProvider />
-            </VCol>
           </VRow>
         </VForm>
       </VCardText>
     </VCard>
   </div>
 </template>
-
-
-
 <style lang="scss">
 @use "@core/scss/template/pages/page-auth.scss";
 </style>
